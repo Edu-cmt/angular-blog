@@ -1,16 +1,37 @@
 <header>
 <app-menu-bar></app-menu-bar>
 </header>
+
 <app-menu-title></app-menu-title>
 
 <div class="container__articles">
     <div class="articles_main">
-        <app-big-card></app-big-card>
+        <app-big-card
+            photoCover="https://www.maketecheasier.com/assets/uploads/2020/02/Lorem-Ipsum-Featured-800x400.jpg"
+            author="Eduardo Mota"
+            date="Today"
+            cardTitle="Quisque in elit at purus tempus vehicula at vel turpis"
+            cardDescription="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend augue at eros tempor elementum. Proin varius volutpat auctor. Vivamus id lacinia neque. Nulla in urna odio."
+        ></app-big-card>
     </div>
     <div class="articles_others">
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
+        <app-small-card
+        photo="http://www.wallpaperup.com/uploads/wallpapers/2014/01/21/234209/518511aba878667dc76e37129d58b136.jpg"
+        author="Eduardo Mota"
+        date="10/14/2023"
+        smallTitle="Sed eu justo metus. Quisque ex nibh, hendrerit at dolor eu, ultrices suscipit arcu."
+        ></app-small-card>
+        <app-small-card
+        photo="https://mir-s3-cdn-cf.behance.net/project_modules/1400/70575570938555.5bb439bfc9fd6.jpg"
+        author="Matheus Nunes"
+        date="10/14/2023"
+        smallTitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        ></app-small-card>
+        <app-small-card
+        photo="https://coverartworks.com/wp-content/uploads/2020/11/lorem-ipsum.jpg"
+        date="10/13/2023"
+        smallTitle="Aliquam varius dignissim mollis. Nullam euismod molestie magna in bibendum. Donec sed dapibus nunc, ut faucibus nulla."
+        ></app-small-card>
     </div>
 
 </div>

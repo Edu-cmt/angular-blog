@@ -1,18 +1,21 @@
 <div class="container__big-card">
     <div class="big-card__img">
-        <img src="https://www.maketecheasier.com/assets/uploads/2020/02/Lorem-Ipsum-Featured-800x400.jpg"
+        <img src="{{ photoCover }}"
         alt="" 
         height="280px"
         srcset="">
     </div>
     <div class="big-card__title">
+        <div class="big-card__author">
+            <span>By {{ author }}, {{ date }}</span>
+        </div>
         <h1>
-        <a href="" target="_blank" rel="">Quisque in elit at purus tempus vehicula at vel turpis</a>
+        <a href="" target="_blank" rel="">{{ cardTitle }}</a>
         </h1>
     </div>
     <div class="big-card__description">
         <p>
-            <a>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend augue at eros tempor elementum. Proin varius volutpat auctor. Vivamus id lacinia neque. Nulla in urna odio. Fusce ut ex nec lorem mattis consectetur sit amet maximus ante. Duis libero libero, tempor non magna id, semper congue augue. Donec id congue tortor. Suspendisse non felis sollicitudin, ornare lorem non, tempus leo.</a>
+            <a href="#" target="_blank">{{ cardDescription }}</a>
         </p>
     </div>
 </div>

@@ -1,14 +1,17 @@
 <div class="container__small-card">
     <div class="container__small-card-content">
         <div class="small-card__img">
-            <img src="http://www.wallpaperup.com/uploads/wallpapers/2014/01/21/234209/518511aba878667dc76e37129d58b136.jpg"
+            <img src="{{ photo }}"
             alt="" 
             height=""
             srcset="">
         </div>
         <div class="small-card__title">
+            <div class="small-card__author">
+                <span>By {{ author }}, {{ date }}</span>
+            </div>
             <h3>
-            <a href="" target="_blank" rel="">Sed eu justo metus. Quisque ex nibh, hendrerit at dolor eu, ultrices suscipit arcu.</a>
+            <a href="" target="_blank" rel="">{{ smallTitle }}</a>
             </h3>
         </div>
     </div>

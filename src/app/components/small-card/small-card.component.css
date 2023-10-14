@@ -14,10 +14,13 @@
 .small-card__title{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
+    align-items: flex-start;
 }
-
+.small-card__author> span{
+    color: grey;
+    font-size: 13px;
+}
 .small-card__img > img{
     height: 100px;
     margin-right: 20px;
